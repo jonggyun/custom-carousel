@@ -10,8 +10,7 @@ function App() {
     { name: "1st content." },
     { name: "2nd content." },
     { name: "3rd content." },
-    { name: "4rd content." },
-    { name: "5rd content." }
+    { name: "4rd content." }
   ];
 
   const customArray = [...dataArray, dataArray[0]]; // 임의로 마지막에 첫번째 요소가 된 배열 생성.
